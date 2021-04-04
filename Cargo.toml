@@ -1,0 +1,19 @@
+[package]
+name = "signal-beagle"
+version = "0.1.0"
+authors = ["wngr <oliver@wngr.de>"]
+edition = "2018"
+
+[dependencies]
+aes-ctr = "0.6.0"
+anyhow = "1.0.40"
+byteorder = "1.4.3"
+clap = "3.0.0-beta.2"
+hex = "0.4.3"
+hkdf = "0.10.0"
+hmac = "0.10.1"
+prost = "0.7.0"
+sha2 = "0.9.3"
+
+[build-dependencies]
+prost-build = "0.7.0"
